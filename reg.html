@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="reg.css">
+</head>
+<body>
+    <h2>Register Page</h2><br>    
+    <div class="login">    
+    <form id="login" method="GET">    
+        <input type="text" name="fname" id="fname" placeholder="First Name:">
+        <br><br>  
+        <input type="text" name="lname" id="lname" placeholder="Last Name:"> 
+        <br><br>  
+        <input type="text" name="Uname" id="Uname" placeholder="Username">    
+        <br><br>    
+        <input type="email" name="email" id="email" placeholder="Email">  
+        <br><br>    
+        <input type="Password" name="Pass" id="Pass" placeholder="Password">    
+        <br><br>    
+        <input type="radio" name="gender" value="male">Male 
+        <input type="radio" name="gender" value="female">Female 
+        <br><br>
+        <input type="checkbox" id="check">    
+        <span>My Data is true</span>  
+        <br><br>    
+        <input type="button" name="log" id="log" value="Log In Here">       
+        <br><br>    
+       
+          
+          
+    </form> 
+    <script>
+        var log=document.getElementById('log');
+        var c=document.getElementById("check");
+        log.onclick=function(){
+            alert("Thanks For Regestration !")
+        }
+        log.style.display="none"
+        c.onclick=function(){
+            log.style.display="block"
+
+        }
+    </script>
+</body>
+</html>

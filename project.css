@@ -1,0 +1,502 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.header{overflow: hidden;}
+.header #h{
+    background-image: url('142789092_715702879068197_2310851745671538622_o.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1000px;
+    margin-bottom: 66px;
+  
+    /* position: relative; */
+}
+.header #h h2 {
+    text-align: center;
+    color: white;
+    font-size: 55px;
+     /* margin-top: 580px;  */
+     padding-top: 580px;
+    font-weight: bolder;
+    font-family: fantasy;
+    text-transform: uppercase;
+    width: 1500px;
+    text-shadow: 3px 5px #000;
+    
+}
+.header #h ul li{
+display: inline-block;
+padding: 15px;
+color:white;
+}
+
+.header #h ul li a{color:white; text-transform: uppercase; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.header #h ul li a:hover{color: red;}
+.header #h ul {
+    background-color: black;
+    position: fixed;
+    width: 100%;
+}
+.header #h ul li:hover{
+    background-color: grey;
+    
+}
+.band{overflow: hidden;}
+.band .txt{
+    text-align: center;
+}
+.band .txt h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+}
+.band .txt span{
+    font-style: italic;
+    color:grey;
+
+}
+.band .txt p{
+width: 700px;
+margin: auto;
+font-size: larger;
+margin-top: 5px;
+text-align: justify;
+
+}
+
+.band .imgs{
+    text-align: center;
+    margin-top: 50px;
+}
+.band .imgs img{
+    padding: 10px;
+    border-radius: 50px;
+}
+.band .imgs img:hover{
+    border-radius: 50%;
+
+}
+.tour{
+    background-color: #000;
+    color: white;
+    overflow: hidden;
+    width: 100%;
+}
+.tour .txt{
+    text-align: center;
+    margin-top: 70px;
+    color: white;
+}
+.tour .txt h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px;
+    font-weight: bolder;
+    letter-spacing: 3px;
+    padding: 20px 0 20px 0;
+}
+.tour .txt span#sp{
+    font-style: italic;
+    color:grey;
+
+}
+.tour .txt ul#tickets li{
+    background-color: #DDD;
+    border-bottom: 2px solid #000;
+    padding: 10px;
+    color:#000;
+    font-weight: bolder;
+    font-weight: bolder;
+    font-size: 33px;
+}
+.tour .txt ul#tickets li span{
+    background-color: red;
+}
+.tour .imgs {
+    margin-top: 70px;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+}
+.tour .imgs ul li {
+    display: inline-block;
+}
+.tour .imgs img {
+    border-radius: 50px 20px;
+    margin: 10px;
+ 
+}
+.tour .imgs img:hover{
+    opacity:0.5;
+    border: 2px solid #CCC;
+}
+.tour .imgs ul li .ti{margin: 20px;background-color: grey;border-radius: 50px 20px;color: #000;}
+
+.tour .imgs ul li .ti button#t1{
+    background-color: #000;
+    color:white;
+    min-width: 150px;
+    min-height: 30px;
+    font-weight: bold;
+    font-variant: small-caps;
+
+}
+.tour .imgs ul li .ti button#t1:active{
+    background-color: red;
+    color:#000
+}
+.contact{
+    width: 100%;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+    margin-top: 70px;
+
+}
+.contact h1{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+letter-spacing: 3px;
+font-size: 55px;
+font-weight: bolder;
+}
+.contact .reg{
+    width: 50%;
+    float: left;
+    outline: 2px solid #CCC;
+}
+.contact .log{
+    width: 50%;
+    float: right;
+    outline: 2px solid #CCC;
+
+}
+.contact .reg h2,form{
+    margin: 10px
+}
+div.contact div.reg form input[type="text"],input[type="email"],input[type="password"]{
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 300px;
+}
+
+div.contact div.reg form input[type="submit"]{
+    background-color: #000;
+    color: white;
+    font-size: 17px;
+    font-variant: small-caps;
+    font-weight: bold;
+    width: 90px;
+    height: 33px;
+}
+div.contact div.reg form input:hover:focus{
+    background-color: gray;
+    }
+    div.contact div.log{
+        float: right;
+        width: 50%;
+        outline: 2px solid #DDD;
+    
+    }
+    div.contact div.log h2,form{
+        margin: 10px
+    
+    }
+    div.contact div.log form input[type="text"],input[type="password"]{
+        margin-bottom: 10px;
+        padding: 5px;
+        width: 300px;
+    }
+    div.contact div.log form input[type="submit"]{
+        background-color: #000;
+        color: white;
+        font-size: 17px;
+        font-variant: small-caps;
+        font-weight: bold;
+        width: 90px;
+        height: 33px;
+    }
+    div.contact div.log form span a{
+    color:#000;
+    text-decoration: underline;
+    }
+   
+    div.map:hover{
+        opacity: 0.5;
+    }
+    div.footer{
+        margin-top: 50px;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+    }
+    div.footer span{
+        text-align: center;
+        font-weight: bolder;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    div.footer ul li {
+    display: inline-block;
+    }
+    div.footer ul li a img{
+        width: 33px;
+        height: 33px;
+    }
+    div.footer ul li a img:hover{
+        opacity: 0.5;
+    } */ 
+/* div.header{
+    width: 100%;
+    margin-bottom: 90px;
+} */
+/* div.header div#h{
+    background-color: black;
+    overflow: hidden;
+    /* position: fixed;
+    top: 0;
+    width: 100%; 
+} */
+
+/* div.header div#h ul li{
+    display: inline-block;
+    padding: 20px;
+}
+div.header div#h ul li a{
+    color:white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+div.header div#h ul li:hover{
+    background-color: grey;
+    color: black;
+}
+/* div.header div#im{ove} */
+/* div.header div#im {
+    width: 100%;
+    position: relative;
+}
+div.header div#im img{
+    width: 100%;
+}
+div.header div#im span{
+position: absolute;
+top: 590px;
+left: 540px;
+color:white;
+font-size: 50px;
+font-weight: bolder;
+text-align: center;
+text-transform:uppercase ;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+outline: 5px solid #CCC;
+text-shadow: 5px 5px black;
+
+}
+div.band{
+    
+    width: 100%;
+    margin-bottom: 90px;
+}
+div.band div.txt{
+    text-align: center;
+}
+div.band div.txt h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    ;
+    font-size: 50px;
+    letter-spacing: 7px;
+    margin-bottom: 7px;
+}
+div.band div.txt span{
+    font-weight: lighter;
+    color: grey;
+    font-style: italic;
+    margin-bottom: 7px;
+}
+div.band div.txt p{
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 2px;
+    margin-top: 10px;
+    height: 150px;
+    font-size: 15px;
+}
+div.band div.imgs{
+    margin-top: 20px;
+    text-align: center;
+}
+div.band div.imgs img{
+    width: 250px;
+    height: 250px;
+    margin: 40px;
+    border-radius: 50px;
+}
+div.band div.imgs img:hover{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+div.tour{
+    width: 100%;
+    background-color: black;
+    color:white
+}
+div.tour div.txt{
+    width: 70%;
+     background-color: red; 
+    margin: auto;
+    text-align: center;
+} 
+div.tour div.txt h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    letter-spacing: 3px;
+}
+div.tour div.txt span#sp{
+color:grey;
+font-style: italic;
+}
+div.tour div.txt ul#tickets li{
+    background-color: #DDD;
+    border-bottom: 2px solid #000;
+    padding: 10px;
+    color:#000;
+    font-weight: bolder;
+}
+div.tour div.txt ul li span{
+    background-color: red;
+    color: white;
+    padding: 3px;
+}
+div.tour div.txt div.imgs{margin-top: 30px;}
+div.tour div.txt div.imgs img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50px 20px;
+    margin: 10px;
+}
+div.tour div.txt div.imgs ul li{
+display: inline-block;
+}
+div.tour div.txt div.imgs img:hover{
+    opacity:0.5;
+    border: 2px solid #CCC;
+}
+div.tour div.txt div.imgs ul.i li div.ti{
+    background-color: hotpink;
+    border-radius: 50px 20px;
+    width: 250px;
+    height: 160px;
+}
+div.tour div.txt div.imgs ul.i li div.ti h3{
+    margin-bottom: 15px;
+
+}
+div.tour div.txt div.imgs ul.i li div.ti h6{
+font-size: 17px;
+margin-bottom: 15px;
+}
+div.tour div.txt div.imgs ul.i li div.ti p{
+    margin-bottom: 15px;
+}
+div.tour div.txt div.imgs ul.i li div.ti button#t1{
+    background-color: #000;
+    color: white;
+    width: 100px;
+    height: 30px;
+}
+div.contact{
+    width: 100%;
+    margin-top: 50px;
+    overflow: hidden;
+}
+div.contact h1{
+    margin-bottom: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 3px;
+    text-align: center;
+
+}
+div.contact div.reg{
+    float: left;
+    width: 50%;
+    border: 2px solid #DDD;    
+}
+div.contact div.reg h2,form{
+    margin: 10px
+}
+div.contact div.reg form input[type="text"],input[type="email"],input[type="password"]{
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 300px;
+}
+
+div.contact div.reg form input[type="submit"]{
+    background-color: #000;
+    color: white;
+    font-size: 17px;
+    font-variant: small-caps;
+    font-weight: bold;
+    width: 90px;
+    height: 33px;
+}
+div.contact div.reg form input:hover:focus{
+background-color: gray;
+}
+div.contact div.log{
+    float: right;
+    width: 50%;
+    outline: 2px solid #DDD;
+
+}
+div.contact div.log h2,form{
+    margin: 10px
+
+}
+div.contact div.log form input[type="text"],input[type="password"]{
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 300px;
+}
+div.contact div.log form input[type="submit"]{
+    background-color: #000;
+    color: white;
+    font-size: 17px;
+    font-variant: small-caps;
+    font-weight: bold;
+    width: 90px;
+    height: 33px;
+}
+div.contact div.log form span a{
+color:#000;
+text-decoration: underline;
+}
+div.map:hover{
+    opacity: 0.5;
+}
+div.footer{
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+div.footer span{
+    text-align: center;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div.footer ul li {
+display: inline-block;
+}
+div.footer ul li a img{
+    width: 33px;
+    height: 33px;
+}
+div.footer ul li a img:hover{
+    opacity: 0.5;
+} */ 
